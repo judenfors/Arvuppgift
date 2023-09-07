@@ -15,8 +15,5 @@ namespace Arvuppgift
             this.width = width;
             this.height = height;
         }
-
     }
-
-
 }
