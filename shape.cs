@@ -15,5 +15,13 @@ namespace Arvuppgift
             this.width = width;
             this.height = height;
         }
+
+        virtual public int Area(){
+            return -1;
+        }
+
+        virtual public int Circumference(){
+            return -1;
+        }
     }
 }

@@ -18,13 +18,13 @@ namespace Arvuppgift{
             switch(s){
 
                 case "t": 
-                Triangle tri = new Triangle(h, w);
+                Shape tri = new Triangle(h, w);
                 Console.WriteLine(tri.Area());
                 Console.WriteLine(tri.Circumference());
                 break;
 
                 case "r":
-                Rectangle rec = new Rectangle(h,w);
+                Shape rec = new Rectangle(h,w);
                 Console.WriteLine(rec.Area());
                 Console.WriteLine(rec.Circumference());
                 break;

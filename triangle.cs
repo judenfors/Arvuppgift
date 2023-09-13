@@ -9,12 +9,12 @@ namespace Arvuppgift
             
         }
 
-        public int Area(){
+         override public int Area(){
             int area = height * width / 2; 
             return area;
         }
 
-        public int Circumference(){
+        override public int Circumference(){
             int circumference = (int)Math.Sqrt( height * height + width * width) + height + width;
             return circumference;
         }
