@@ -2,7 +2,7 @@ using System;
 
 namespace Arvuppgift
 {
-    public class Rectangle: IShape
+    public class Circle: IShape
     {
         
     }
